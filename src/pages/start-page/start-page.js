@@ -11,14 +11,6 @@ import HelpSharpIcon from "@material-ui/icons/HelpSharp";
 import Image from 'material-ui-image'
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    backgroundImage: `url(https://i.pinimg.com/originals/8b/55/cf/8b55cf654c0e6f4bfdf0ddf0d167f2a2.jpg)`,
-    width: 1280,
-    height: 720,
-    borderRadius: 6,
-    boxShadow:
-      "rgba(0, 0, 0, 0.2) 0px 3px 3px -2px, rgba(0, 0, 0, 0.14) 0px 3px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 8px 0px"
-  },
   box: {
     // backgroundColor: "rgba(0, 0, 0, 0.2)",
     width: 350,

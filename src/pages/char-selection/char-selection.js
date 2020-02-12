@@ -13,12 +13,12 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(1)
   },
   imageBox: {
-    width: 175,
+    width: 150,
     margin: theme.spacing(4),
     border: "5px solid white",
     cursor: "pointer",
     "&:hover": {
-      border: "5px solid red"
+      border: "5px solid red",
     }
   }
 }));

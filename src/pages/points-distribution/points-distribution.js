@@ -56,7 +56,7 @@ const PointsDistribution = props => {
   };
 
   const goToStartGame = () => {
-    
+    history.push(`/game`);
   };
 
   const decrease = () => {

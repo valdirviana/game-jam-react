@@ -9,7 +9,8 @@ import {
   CharSelection,
   PointsDistribution,
   Infos,
-  Help
+  Help,
+  Game
 } from "./pages";
 
 const useStyles = makeStyles(theme => ({
@@ -46,6 +47,9 @@ export default function App() {
           </Route>
           <Route path="/help">
             <Help />
+          </Route>
+          <Route path="/game">
+            <Game />
           </Route>
         </Switch>
       </Router>

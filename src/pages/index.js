@@ -3,3 +3,4 @@ export { default as CharSelection } from "./char-selection";
 export { default as PointsDistribution } from "./points-distribution";
 export { default as Infos } from "./infos";
 export { default as Help } from "./help";
+export { default as Game } from "./game";
